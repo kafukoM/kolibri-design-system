@@ -1,0 +1,440 @@
+repo_name: kafukoM/kolibri-design-system
+report_id: 8c543caa24baa14be258df488d76bc85
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T08:47:30+00:00'
+requested_by: MisRob
+provider: github
+branch: develop
+detected_tools_count: 33
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system
+  detection_source: Repo Metadata
+- name: Normalize.css
+  description: A modern alternative to CSS resets
+  website_url: https://necolas.github.io/normalize.css/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-31 16:13:52.000000000 Z
+- name: Nuxt.js
+  description: The Vue.js Framework
+  website_url: https://nuxtjs.org
+  version: 2.11.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/7304/23360933.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Jacob Pierce
+  last_updated_on: 2021-09-02 19:12:15.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-07-06 22:35:00.000000000 Z
+- name: XState
+  description: State machines and statecharts for the modern web
+  website_url: https://xstate.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/12312/default_b7db756c27572b5302a654fe5a96f617084c7d8a.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.16.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: ".babelrc"
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-01-29 06:38:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/.github/workflows/changelog.yml
+  detection_source: ".github/workflows/changelog.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-15 20:15:10.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-01-29 06:38:43.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-01-29 06:58:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-01-29 06:38:43.000000000 Z
+- name: Aphrodite
+  website_url: https://github.com/Khan/aphrodite
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6227/15455.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-01-29 06:38:43.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 3.7.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-26 02:27:19.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2021-04-20 18:22:31.000000000 Z
+- name: aphrodite
+  description: Framework-agnostic CSS-in-JS with support for server-side rendering
+  package_url: https://www.npmjs.com/aphrodite
+  version: 2.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18353/default_66453dac5039f3ea2d494ebb900a31c627b16d29.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-01-29 06:38:43.000000000 Z
+- name: autosize
+  description: Autosize is a small
+  package_url: https://www.npmjs.com/autosize
+  version: 3.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18320/default_185a3d4e97cf62330a9efe7678914006c4eeb555.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-31 16:13:52.000000000 Z
+- name: chokidar-cli
+  description: Ultra-fast cross-platform command line utility to watch file system
+    changes
+  package_url: https://www.npmjs.com/chokidar-cli
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16834/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-31 16:13:01.000000000 Z
+- name: consola
+  description: Elegant Console Logger for Node.js and Browser
+  package_url: https://www.npmjs.com/consola
+  version: 2.15.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18067/image.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2021-09-02 21:25:27.000000000 Z
+- name: globby
+  description: User-friendly glob matching
+  package_url: https://www.npmjs.com/globby
+  version: 11.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2020-03-30 22:57:04.000000000 Z
+- name: jest-serializer-vue
+  description: A jest serializer for Vue snapshots
+  package_url: https://www.npmjs.com/jest-serializer-vue
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16883/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-31 16:13:52.000000000 Z
+- name: material-design-icons
+  description: Material Design icons by Google
+  package_url: https://www.npmjs.com/material-design-icons
+  version: 3.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17409/default_bdd3cbd2ffd904a2fe09048437badf6984450361.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-31 16:13:52.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Anoushka Jha
+  last_updated_on: 2023-10-24 16:56:33.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.14.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-26 02:27:19.000000000 Z
+- name: raw-loader
+  description: A loader for webpack that allows importing files as a String
+  package_url: https://www.npmjs.com/raw-loader
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Richard Tibbles
+  last_updated_on: 2023-12-05 19:03:59.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Devon Rueckner
+  last_updated_on: 2021-04-20 18:22:31.000000000 Z
+- name: vue-jest
+  description: Jest Vue transform
+  package_url: https://www.npmjs.com/vue-jest
+  version: 2.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16554/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/kafukoM/kolibri-design-system/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: MisRob
+  last_updated_on: 2024-02-23 12:32:01.000000000 Z
